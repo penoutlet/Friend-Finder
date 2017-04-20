@@ -1,0 +1,43 @@
+psuedocode
+
+define the goal
+
+- make a website with two html pages
+- give the homepage some images to create a friendship-themed
+design
+- make a survey with 10 questions
+-  api that takes in new users
+
+
+design the process
+
+- follow hot restaurant example.
+ - need routes files 
+ - ajax within the html
+ - one that posts the user's answers to the api/friends
+ - one that "gets" compatible users
+ - 
+
+
+
+code 
+- submit on.click, ajax.post answers & ajax get compatible users
+-		function FriendQuery() {
+
+      // Here we get the location of the root page.
+      // We use this instead of explicitly saying the URL is localhost:3001 because the url will change when we deploy.
+      var currentURL = window.location.origin;
+
+      // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
+      $.ajax({ url: currentURL + "/api/friends", method: "GET" })
+      .done(function(friendsData) {
+
+        // Here we are logging the URL so we have access to it for troubleshooting
+        console.log("------------------------------------");
+        console.log("URL: " + currentURL + "/api/friends");
+        console.log("------------------------------------");
+
+        // Here we then log the NYTData to console, where it will show up as an object.
+        console.log(friendsData);
+        console.log("------------------------------------");
+

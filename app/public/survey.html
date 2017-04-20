@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend-Finder Home</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" type = "text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div class="row">
+      <div class="col-lg-12">
+
+        <!-- Reservation Page -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">New Survey</h4>
+          </div>
+          <div class="panel-body">
+
+            <form role="form">
+
+              <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" class="form-control" id="user_name">
+              </div>
+
+              <div class="form-group">
+                <label for="">Image</label>
+                <input type="text" class="form-control" id="user_image">
+              </div>
+                  </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+<div class="wrap">
+  <h1 class="likert-header">Friend-finder survey</h1>
+  <form action="" id='myForm'>
+    <label class="statement">Watching Netflix is a fun way to spend free time.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">Going outdoors is the best way to spend free time.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">Playing video games is a fun way to spend free time.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I like to drink as a way to unwind.</label>
+    <ul class='likert'>
+     <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I believe in God.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I prefer spirituality over organized religion.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I like quiet nights in more than going out.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I am liberal politically.</label>
+    <ul class='likert'>
+    <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I like to read.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    <label class="statement">I keep up with politics and world affairs.</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+    
+    <div class="buttons">
+      <button class="clear">Clear</button>
+      <button class="submit">Submit</button>
+    </div>
+  </form>
+</div>
+<style>
+html,body {padding:0;margin:0;}
+.wrap {
+  font:12px Arial, san-serif;
+}
+h1.likert-header {
+  padding-left:4.25%;
+  margin:20px 0 0;
+}
+form .statement {
+  display:block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 30px 0 0 4.25%;
+  margin-bottom:10px;
+}
+form .likert {
+  list-style:none;
+  width:100%;
+  margin:0;
+  padding:0 0 35px;
+  display:block;
+  border-bottom:2px solid #efefef;
+}
+form .likert:last-of-type {border-bottom:0;}
+form .likert:before {
+  content: '';
+  position:relative;
+  top:11px;
+  left:9.5%;
+  display:block;
+  background-color:#efefef;
+  height:4px;
+  width:78%;
+}
+form .likert li {
+  display:inline-block;
+  width:19%;
+  text-align:center;
+  vertical-align: top;
+}
+form .likert li input[type=radio] {
+  display:block;
+  position:relative;
+  top:0;
+  left:50%;
+  margin-left:-6px;
+  
+}
+form .likert li label {width:100%;}
+form .buttons {
+  margin:30px 0;
+  padding:0 4.25%;
+  text-align:right
+} 
+form .buttons button {
+  padding: 5px 10px;
+  background-color: #67ab49;
+  border: 0;
+  border-radius: 3px;
+}
+form .buttons .clear {background-color: #e9e9e9;}
+form .buttons .submit {background-color: #67ab49;} 
+form .buttons .clear:hover {background-color: #ccc;}
+form .buttons .submit:hover {background-color: #14892c;} 
+</style>
+</body>
+</html>
+
+
+<script type="text/javascript">
+var AnswersArray = [];
+
+
+$('#myForm input').on('change', function() {
+    
+  alert($('input[name=likert]:checked', '#myForm').val()); 
+    
+  console.log(AnswersArray);
+    
+  AnswersArray.push(parseInt($('input[name=likert]:checked', '#myForm').map(function(){return this.value;}).get()));
+
+});
+
+
+$(".submit").on("click", function(event) {
+  var currentURL = window.location.origin;
+    event.preventDefault();
+
+  var newUser = {
+      Name: $("#user_name").val(),
+      Photo: $("#user_image").val(),
+      Scores: AnswersArray,
+    };
+
+    console.log(newUser);
+  $.post(currentURL + "/api/friends", newUser,
+        function(data) {
+         if (data){
+          alert("Data succesfully posted!");
+          console.log(data);
+          }
+          
+          });
+        
+
+// ajax get 
+
+
+  var currentURL = window.location.origin;
+  $.ajax({ url: currentURL + "/api/friends", method: "GET" })
+  .done(function(friendsData) {
+
+    console.log("------------------------------------");
+    console.log("URL: " + currentURL + "/api/friends");
+    console.log("------------------------------------");
+
+    console.log("Friends Data from Friends API" + JSON.stringify(friendsData));
+    console.log("------------------------------------");
+});
+});
+
+
+// ========================================================================================= ===================================================
+//     function sumCompatibilityScore(AnswersArray) {
+//      var compatibilityScore = 0;
+//      var compatibilityComponent = 0;
+//      var compatibilityArray = [];
+//      console.log(JSON.stringify(friendsData[1].Scores) +'friendsData test for scope');
+//     // loop function for finding compatible people.
+
+//       for (var i = 0; i < friendsData.length; i++) {
+//           if ((newUser.Scores[i] - JSON.stringify(friendsData[i].Scores)) < 0){
+//             compatibilityComponent = (newUser.Scores[i]- friendsData.Scores[i])*-1; 
+//           compatibilityArray.push(compatibilityComponent);
+
+//   }
+//           else {
+//           compatibilityComponent = (newUser.Scores[i]- friendsData.Scores[i]); 
+//           compatibilityArray.push(compatibilityComponent);
+
+//   }
+// };
+
+
+// var compatibilityScore = compatibilityArray.reduce(add, 0);
+
+// function add(a, b) {
+//     return a + b;
+// }
+
+//         console.log(compatibilityArray);
+//         console.log(compatibilityScore);
+// };
+
+//         sumCompatibilityScore();
+// });
+//     // }
+
+//     });
+
+
+
+// compatibility calculator
+  // storing this here for now. 
+
+</script>
