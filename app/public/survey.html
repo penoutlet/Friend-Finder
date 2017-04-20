@@ -364,10 +364,10 @@ $('#myForm input').on('change', function() {
     
   alert($('input[name=likert]:checked', '#myForm').val()); 
     
-  console.log(AnswersArray);
     
   AnswersArray.push(parseInt($('input[name=likert]:checked', '#myForm').map(function(){return this.value;}).get()));
-
+console.log(AnswersArray);
+  
 });
 
 
